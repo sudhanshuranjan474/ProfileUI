@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_centerInParent="true"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            app:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="Name : Demo name"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Age : 20"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="#5C5A5A"
+                    android:textStyle="normal"
+                    android:textSize="13sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="PId : 111111111"
+                    android:textColor="#5C5A5A"
+                    android:textStyle="normal"
+                    android:textSize="13sp" />
+<View
+    android:background="#79D6D1D1"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    />
+             <LinearLayout
+                 android:orientation="horizontal"
+                 android:weightSum="3"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginBottom="5dp"
+                 android:gravity="center"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"  >
+                 <TextView
+                     android:text="Height : 150cm"
+                     android:layout_weight="1"
+                     android:gravity="center"
+                     android:textStyle="bold"
+                     android:textSize="14sp"
+                     android:textColor="#636262"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"/>
+                 <View
+                     android:background="#79D6D1D1"
+                     android:layout_width="1dp"
+                     android:layout_height="match_parent"/>
+                 <TextView
+                     android:text="Blood Group : O+ve"
+                     android:layout_weight="1"
+                     android:gravity="center"
+                     android:textStyle="bold"
+                     android:textSize="14sp"
+                     android:textColor="#636262"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"/>
+                 <View
+                     android:background="#79D6D1D1"
+                     android:layout_width="1dp"
+                     android:layout_height="match_parent"/>
+                 <TextView
+                     android:text="Gender : Female"
+                     android:layout_weight="1"
+                     android:gravity="center"
+                     android:textStyle="bold"
+                     android:textSize="14sp"
+                     android:textColor="#636262"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"/>
+                 <View
+                     android:background="#79D6D1D1"
+                     android:layout_width="1dp"
+                     android:layout_height="match_parent"/>
+
+             </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
